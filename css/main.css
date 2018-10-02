@@ -23,3 +23,22 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+.polaroid:first-child {
+  position: absolute;
+  transform: rotate(-5deg) translate(200px, 150px);
+  z-index: 2;
+}
+
+.polaroid:nth-child(2) {
+  position: absolute;
+  transform: rotate(5deg) translate(285px, 180px);
+  z-index: 10;
+}
+
+.polaroid:last-child {
+  position: absolute;
+  transform: rotate(30deg) translate(450px, 1px);
+  transform-origin: right top;
+  z-index: 3;
+}
