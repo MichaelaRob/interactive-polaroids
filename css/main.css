@@ -26,7 +26,8 @@ html {
 
 .polaroid:first-child {
   position: absolute;
-  transform: rotate(-5deg) translate(200px, 150px);
+  transform: rotate(-10deg) translate(150px, 200px);
+  transform-origin: left bottom;
   z-index: 2;
 }
 
