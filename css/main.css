@@ -52,7 +52,7 @@ html {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 }
 
-.polaroid:last-child {
+.polaroid:nth-child(3) {
   margin: 0;
   padding: 10px;
   width: 250px;
@@ -78,6 +78,6 @@ html {
   transform: translate(279px, 125px);
 }
 
-.polaroid:last-child:hover {
+.polaroid:nth-child(3):hover {
   transform: translate(419px, -100px);
 }
