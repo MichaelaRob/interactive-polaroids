@@ -16,6 +16,11 @@ body.polaroid {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 }
 
+.polaroid {
+  transition: all linear;
+  position: absolute;
+}
+
 .polaroid > img {
   display: block;
   width: 100%;
@@ -36,7 +41,6 @@ body.polaroid {
   transform: rotate(-11deg) translate(180px, 135px);
   background-color: #fff;
   border-radius: 4px;
-  transition: all .2s ease-out;
   z-index: 2;
 }
 
@@ -48,7 +52,6 @@ body.polaroid {
   position: absolute;
   background-color: #fff;
   border-radius: 4px;
-  transition: all .2s ease-out;
   z-index: 5;
 }
 
@@ -57,7 +60,6 @@ body.polaroid {
   padding: 10px;
   width: 250px;
   transform: rotate(30deg) translate(415px, -100px);
-  transition: all .2s ease-out;
   transform-origin: center center;
   position: absolute;
   background-color: #fff;
