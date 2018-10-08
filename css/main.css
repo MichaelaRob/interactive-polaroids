@@ -4,7 +4,7 @@ html {
   font-family: sans-serif;
 }
 
-.polaroid {
+body.polaroid {
   margin: 0;
   padding: 10px;
   width: 250px;
@@ -24,50 +24,49 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
-}
-
-figcaption {
   position: absolute;
   bottom: 1.25em;
   left: 5.25em;
 }
 
 .polaroid:first-child {
-  transform: rotate(-10deg) translate(120px, 160px);
+  margin: 0;
+  padding: 10px;
+  width: 250px;
+  transform: rotate(-11deg) translate(180px, 135px);
+  background-color: #fff;
+  border-radius: 4px;
   transition: all .2s ease-out;
   z-index: 2;
 }
 
 .polaroid:nth-child(2) {
-  transform: rotate(5deg) translate(230px, 0);
+  margin: 0;
+  padding: 10px;
+  width: 250px;
+  transform: rotate(5deg) translate(278px, 125px);
+  position: absolute;
+  background-color: #fff;
+  border-radius: 4px;
   transition: all .2s ease-out;
-  z-index: 8;
+  z-index: 5;
 }
 
 .polaroid:last-child {
-  transform: rotate(30deg) translate(200px, -335px);
+  margin: 0;
+  padding: 10px;
+  width: 250px;
+  transform: rotate(30deg) translate(415px, -100px);
   transition: all .2s ease-out;
   transform-origin: center center;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 4px;
   z-index: 3;
 }
 
 .polaroid:hover {
   transform: rotate(0);
-  z-index: 10;
-  box-shadow: 1px 4px 6px rgba(0, 0, 0, .9);
-}
-
-.polaroid:nth-child(2):hover,
-.polaroid:nth-child(2):focus {
-  transform: translate(230px, 0);
-}
-
-.polaroid:first-child:hover,
-.polaroid:first-child:focus {
-  transform: translate(120px, 175px);
-}
-
-.polaroid:last-child:hover,
-.polaroid:last-child:focus {
-  transform: translate(200px, -335px);
+  z-index: 9;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, .8);
 }
