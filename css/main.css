@@ -38,7 +38,7 @@ body.polaroid {
   margin: 0;
   padding: 10px;
   width: 250px;
-  transform: rotate(-11deg) translate(180px, 135px);
+  transform: rotate(-11deg) translate(179px, 135px);
   background-color: #fff;
   border-radius: 4px;
   z-index: 2;
@@ -48,7 +48,7 @@ body.polaroid {
   margin: 0;
   padding: 10px;
   width: 250px;
-  transform: rotate(5deg) translate(278px, 125px);
+  transform: rotate(5deg) translate(279px, 125px);
   position: absolute;
   background-color: #fff;
   border-radius: 4px;
@@ -59,8 +59,7 @@ body.polaroid {
   margin: 0;
   padding: 10px;
   width: 250px;
-  transform: rotate(30deg) translate(415px, -100px);
-  transform-origin: center center;
+  transform: rotate(30deg) translate(419px, -100px);
   position: absolute;
   background-color: #fff;
   border-radius: 4px;
