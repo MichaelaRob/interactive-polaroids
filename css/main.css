@@ -28,7 +28,8 @@ html {
 
 figcaption {
   position: absolute;
-  bottom: 10px;
+  bottom: 1.25em;
+  left: 5.25em;
 }
 
 .polaroid:first-child {
