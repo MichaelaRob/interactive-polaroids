@@ -17,7 +17,7 @@ body.polaroid {
 }
 
 .polaroid {
-  transition: all linear;
+  transition: all 250ms linear;
   position: absolute;
 }
 
@@ -70,4 +70,16 @@ body.polaroid {
   transform: rotate(0);
   z-index: 9;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .8);
+}
+
+.polaroid:first-child:hover {
+  transform: translate(179px, 135px);
+}
+
+.polaroid:nth-child(2):hover {
+  transform: translate(279px, 125px);
+}
+
+.polaroid:last-child:hover {
+  transform: translate(419px, -100px);
 }
